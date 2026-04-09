@@ -1,0 +1,19 @@
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy=1.26
+  - pandas=2.2
+  - scipy=1.12
+  - matplotlib=3.8
+  - seaborn=0.13
+  - scikit-learn=1.4
+  - jupyterlab=4.2
+  - notebook=7.2
+  - ipykernel=6.29
+  - pillow=10.4
+  - tqdm=4.66
+  - pip
+  - pip:
+      - torch==2.2.2
+      - torchvision==0.17.2
